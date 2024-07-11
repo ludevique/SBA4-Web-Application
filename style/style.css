@@ -1,0 +1,74 @@
+*{
+    background-color: rgb(18, 17, 17);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.myworkspace {
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    border: 2px solid green;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.container{
+    width: 90%;
+    background: linear-gradient(0.25turn, #0b6a93, #8ee64b, #e78216);
+    border-radius: 18px;
+    max-width: 450px;
+    padding: 40px 35px;
+    color: white;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.search input {
+    padding: 10px 25px;
+    border: 0;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+    flex: 1;
+    border-radius: 25px;
+    margin-right: 15px;
+    height: 50px;
+    
+    
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.searchbtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    
+
+}
+.search{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.contain h1{
+    text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightcoral;
+    color: black;
+    font-weight: bolder;
+}
