@@ -1,4 +1,4 @@
-*{
+/* *{
     background-color: rgb(18, 17, 17);
     box-sizing: border-box;
     padding: 0;
@@ -71,4 +71,16 @@
     background-color: lightcoral;
     color: black;
     font-weight: bolder;
+} */
+
+
+/* .{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+} */
+
+.display{
+    margin: 0;
 }

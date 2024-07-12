@@ -2,19 +2,21 @@ import Naruto from "../script/scripts.mjs"
 
 //-------------------Adding an event listener to our button to get the data
 
+
 document.addEventListener('DOMContentLoaded', () => {
     const character = document.getElementById('MYCHARAC');
+    const characterDisplaySpace = document.getElementById('displayarea')
 
     character.addEventListener('click', async () =>{
         try{
             const myData = await Naruto();
-            console.log("character display successfully", myData)
+            console.log("character display successfully: "); console.log(myData);
 
 
-            characterDisplaySpace.innerHTML
+            characterDisplaySpace.innerHTML = ""
 
             //iterate through all my characters----------
-            myData.forEach(character => {
+            myData.forEach((character) => {
                 const characterCard = document.createElement('div');
                 characterCard.classList.add('character-card');
 
@@ -27,19 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 //--------Append my elements and their contents inside my webpage-----------------
 
                 characterCard.appendChild(name);
-                characterCard.appendChild(description);
-                characterCard.appendChild(characterCard)
+                characterCard.appendChild(characDescription);
+                document.body.appendChild(characterCard)
             });
-
-
-
-
-
-
-
-
-
-
 
 
 
